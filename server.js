@@ -102,9 +102,9 @@ app.use(cors())
 
 
 // route layer
-app.use('/users', require('./routes/users.route'));
-app.use('/inventory', require('./routes/products.route'));
-app.use('/shop_inventory', require('./routes/shop_products.route'));
+app.use('api/users', require('./routes/users.route'));
+app.use('api/inventory', require('./routes/products.route'));
+app.use('api/shop_inventory', require('./routes/shop_products.route'));
 
 
 //error layer
